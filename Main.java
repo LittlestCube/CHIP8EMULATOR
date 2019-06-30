@@ -1,5 +1,3 @@
-package com;
-
 public class Main {
 	
 	static MainGUI gui = new MainGUI();
@@ -7,5 +5,4 @@ public class Main {
 	public static void main(String args[]) {
 		gui.init();
 	}
-
 }
