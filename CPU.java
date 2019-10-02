@@ -1,4 +1,6 @@
-public class CPU {
+import java.io.*;
+
+public class CPU extends Main {
 	
 	static int opcode;
 	static byte[] CPUMem = new byte[0x1000];
@@ -11,5 +13,31 @@ public class CPU {
 	static int[] stack = new int[0x10];
 	static int sp;
 	static byte[] key = new byte[0x10];
+	static boolean drawFlag = false;
+	
+	public void init() {
+		// todo
+		// Initialize registers and memory once
+	}
+	
+	public void setupInput() {
+		// todo
+	}
+	
+	public void loadGame(File file) {
+		// todo
+	}
+	
+	public void emulateCycle() {
+		// todo
+		// Fetch Opcode
+		// Decode Opcode
+		// Execute Opcode
 
+		// Update timers
+	}
+	
+	public void setKeys() {
+		// todo
+	}
 }
