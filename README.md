@@ -1,2 +1,2 @@
-# CHIP8EMULATOR
-who woulda guessed
+# Chip 8 stuffs
+i have too much time
