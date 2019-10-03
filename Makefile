@@ -1,10 +1,14 @@
-all: dev jar clean
+all: dev clean
 
 dev:
 	javac *.java
-
-jar:
 	jar cvfe CHIP8.jar Main *
 
+run:
+	java -jar CHIP8.jar
+
 clean:
-	rm *.class
+	rm *.class || continue
+
+cleanall: clean
+	rm CHIP8.jar || continue
